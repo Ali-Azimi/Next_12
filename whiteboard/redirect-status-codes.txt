@@ -1,0 +1,9 @@
+
+
+
+
+http status code
+    3xx
+    304 not modified
+    301 permanent redirect
+    302 temprory redirect

@@ -1,0 +1,13 @@
+
+
+
+
+    WHERE ?
+        Server
+        Clinet 
+
+    WHEN ?
+        Per Request
+        at build time
+        time period
+        by demand

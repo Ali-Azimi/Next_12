@@ -95,3 +95,10 @@ header a {
   display: flex;
   align-items: center;
 }
+
+.post {
+  background-color: #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+}

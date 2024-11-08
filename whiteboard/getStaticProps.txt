@@ -1,0 +1,12 @@
+
+
+
+getStaticProps()
+
+    return values 
+        {
+            props,
+            notFound,
+            redirect,
+            revalidate
+        }

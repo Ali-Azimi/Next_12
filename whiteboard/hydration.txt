@@ -1,0 +1,13 @@
+
+
+
+
+Server Side Rendering
+    Server 
+        => api call
+            => render template 
+
+    client
+        => bundle js
+        => download js 
+        => hydration

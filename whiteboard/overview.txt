@@ -1,0 +1,14 @@
+Overview - installation - page router / app router - strcuture - top level files/directory
+\_app
+\_document
+pages - routing
+index
+nested
+dynamic [id].jsx
+catch all segment [...id].jsx
+optional all segment [[...id]].js
+=> useRouter
+=> .query
+Image Optimizer
+<Error>
+notFound()

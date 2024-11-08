@@ -1,0 +1,17 @@
+
+
+
+
+Solution A 
+    user A => request => cache 
+    user A => request => return cached data 
+
+    user B => request => cache
+    user B => request => return cached data 
+
+
+
+Solution B 
+    user A => request => fetch => cache 
+
+    user B => request => return cache

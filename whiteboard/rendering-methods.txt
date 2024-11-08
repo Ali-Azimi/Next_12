@@ -1,0 +1,9 @@
+
+
+
+
+Rendering Methods
+    SSR (server side rendering)
+    SSG (static site generation)
+    ISR (Incremental Static Regenration)
+    CSR (client side rendering)
