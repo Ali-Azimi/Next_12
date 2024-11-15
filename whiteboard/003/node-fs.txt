@@ -1,0 +1,12 @@
+
+
+
+FileSystem (fs)
+
+    readFile()
+    writeFile()
+    appendFile()
+    rename()
+    mkdir()
+    unlink()
+    ...

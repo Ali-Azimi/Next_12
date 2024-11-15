@@ -1,0 +1,29 @@
+
+
+
+
+Rendering Methods
+
+    Server Side Rendering (SSR)
+        server | by request
+
+        getServerSideProps()
+
+    Static Site Generation (SSG)
+        server | at build time
+        
+        getStaticProps()
+
+    Incremental Static Regenration (ISR)
+        server | at a time period
+
+        getStaticPaths()
+
+    Client Side Rendering (CSR)
+        client | by request ...
+
+
+
+
+
+        Next Api

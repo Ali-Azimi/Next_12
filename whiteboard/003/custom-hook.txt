@@ -1,0 +1,20 @@
+
+
+
+
+
+useFetch(url)
+
+    state 
+    useEffect
+        cleanup
+        signal
+    
+
+    data, error, isLoading
+
+
+
+
+    react query
+    swr

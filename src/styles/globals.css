@@ -65,7 +65,7 @@ header a {
 
 .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin: 2rem 0;
 }
@@ -101,4 +101,15 @@ header a {
   padding: 1rem;
   margin: 1rem;
   border-radius: 4px;
+}
+
+.category-btn {
+  background-color: #0072bc;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  border: none;
+  pointer-events: ;
 }
