@@ -5,10 +5,10 @@ import { usePathname } from "next/navigation";
 import { SWRConfig } from "swr";
 
 const ProductLayoutPages = ["/products", "/about"];
-const baseUrl = "http://localhost:3000/api";
+const baseUrl = "https://fakestoreapi.com";
 
 const fetcher = async (options) => {
-  const response = await fetch(`${baseUrl}${options.url}`, {
+  const response = await fetch(`${baseUrl}${options}`, {
     method: options.method,
   });
   const data = await response.json();
@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <SWRConfig
-      value={{ fetcher, revalidateOnFocus: true, refreshInterval: 2000 }}
+      value={{ fetcher, revalidateOnFocus: true, refreshInterval: 2000, suspense: true }}
     >
       <LayoutComponent>
         <Component {...pageProps} />
